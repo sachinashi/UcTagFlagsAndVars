@@ -36,3 +36,33 @@ UCTagActorBitwiseFlagSubsystem : Gameplay Tag -> int32
 ----
 
 Translated with www.DeepL.com/Translator (free version)
+
+---
+
+ゲームの進行状況を保存するサブシステムです。<br>
+ゲームインスタンスから継承されるサブシステムであるため、レベルを移動しても保持されます。
+<br><br>
+
+ゲームプレイタグをキーとして以下の情報をそれぞれ保存します。
+
+１．bool型 フラグ
+
+２．float型 変数
+
+３．32ビットint型 ビットマスク
+
+※それぞれ TMap<GameplayTag, ~~~> で関連付けられます
+<br><br>
+
+フラグ情報は "UCTagFlagsSubsystem" から呼び出せます。
+
+変数情報は "UCTagVarsSubsystem" から呼び出せます。
+
+ビットマスク情報は "UCTagActorBitwiseFlagSubsystem" から呼び出せます。
+<br><br>
+
+使用例はプラグインフォルダ
+
+~~/Example/SampleMap
+
+を参照してください。
