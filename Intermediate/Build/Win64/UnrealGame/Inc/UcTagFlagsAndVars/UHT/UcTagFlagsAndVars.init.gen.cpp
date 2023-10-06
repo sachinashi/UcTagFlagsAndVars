@@ -25,7 +25,7 @@ void EmptyLinkFunctionForGeneratedCodeUcTagFlagsAndVars_init() {}
 				SingletonFuncArray,
 				UE_ARRAY_COUNT(SingletonFuncArray),
 				PKG_CompiledIn | 0x00000000,
-				0xE2B291FA,
+				0x4B06C253,
 				0x678B77E2,
 				METADATA_PARAMS(0, nullptr)
 			};
@@ -33,5 +33,5 @@ void EmptyLinkFunctionForGeneratedCodeUcTagFlagsAndVars_init() {}
 		}
 		return Z_Registration_Info_UPackage__Script_UcTagFlagsAndVars.OuterSingleton;
 	}
-	static FRegisterCompiledInInfo Z_CompiledInDeferPackage_UPackage__Script_UcTagFlagsAndVars(Z_Construct_UPackage__Script_UcTagFlagsAndVars, TEXT("/Script/UcTagFlagsAndVars"), Z_Registration_Info_UPackage__Script_UcTagFlagsAndVars, CONSTRUCT_RELOAD_VERSION_INFO(FPackageReloadVersionInfo, 0xE2B291FA, 0x678B77E2));
+	static FRegisterCompiledInInfo Z_CompiledInDeferPackage_UPackage__Script_UcTagFlagsAndVars(Z_Construct_UPackage__Script_UcTagFlagsAndVars, TEXT("/Script/UcTagFlagsAndVars"), Z_Registration_Info_UPackage__Script_UcTagFlagsAndVars, CONSTRUCT_RELOAD_VERSION_INFO(FPackageReloadVersionInfo, 0x4B06C253, 0x678B77E2));
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
